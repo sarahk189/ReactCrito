@@ -1,11 +1,13 @@
 import React from 'react'
-import critoLogotype from '../assets/images/Logo.svg'
+import img_critoLogo from '../../Assets/images/Logo.svg'
+import Button from '../generics/Button'
+
 
 const Header = () => {
   return (
     <header>
         <div className="container">
-            <a href="index.html"><img className= "crito-logo" src={critoLogotype} alt="crito logotype" /></a>
+            <a href="index.html"><img className= "crito-logo" src={img_critoLogo} alt="crito logotype" /></a>
             <button className="menu-bars"><i className="fa-regular fa-bars"></i></button>
             <div className="menu">
                 <div className="top-menu">
@@ -38,7 +40,9 @@ const Header = () => {
                             <a href="news.html">News</a>
                             <a href="contact.html">Contact</a>
                         </nav>
-                        <a className="btn-yellow btn-login" href="login.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>
+                        
+                        <Button type="yellow" url="/login" name="Login " />
+                    
                     </div>
             </div>
         </div>
