@@ -21,7 +21,7 @@ const FeaturesSection = () => {
 
                     <div className="section-title">
                         <SectionTitle title="Features" description="Our Accounting is trusted by thousands of companies" />
-                        <Button className="yellow" url="/learnmore" name="Learn More " /> 
+                        <Button type="yellow" url="/learnmore" name="Learn More " /> 
                     </div>
                 
                     {
